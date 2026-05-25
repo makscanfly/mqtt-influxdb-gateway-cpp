@@ -10,6 +10,10 @@ Udostępniony kod odpowiada za logikę stacji C4, która pełniła funkcję agre
 - Synchronizacja danych między wątkami odbiorczymi a wątkiem zapisu przy użyciu kolejki FIFO oraz mechanizmów `std::mutex` i `std::lock_guard`.
 - Zapis zgromadzonych informacji do bazy danych **InfluxDB** poprzez REST API przy użyciu biblioteki `libcurl`.
 
+### Wizualizacja danych (Dashboard InfluxDB)
+Poniższy zrzut ekranu przedstawia przykładowy dashboard w InfluxDB, na którym widoczne są dane zgromadzone przez stację C4. Wykresy pokazują dane pogodowe oraz dane o produkcji i wymianie energii elektrycznej w polskiej sieci.
+<img width="1833" height="844" alt="Image" src="https://github.com/user-attachments/assets/0c74752f-f3ce-4cab-b964-11fa359d56a5" />
+
 ### Wdrożenie i utrzymanie
 Program pracował w środowisku **Linux na serwerze VPS**. Aby zapewnić ciągłość pracy, został skonfigurowany jako **usługa systemd** (service), która monitorowała proces i automatycznie uruchamiała go ponownie po 5 sekundach w przypadku wystąpienia błędu lub zamknięcia programu.
 
