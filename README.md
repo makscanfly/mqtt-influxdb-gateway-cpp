@@ -24,9 +24,10 @@ g++ gateway_C4.cpp -o gateway_C4 -lmosquittopp -lcurl -lpthread
 ```
 
 **Struktura plików:**
-    ```text
-    .
-    ├── src/
-    │   └── gateway_C4.cpp
-    ├── .gitignore
-    └── README.md
+```text
+.
+├── src/
+│   └── gateway_C4.cpp
+├── .gitignore
+└── README.md
+```
