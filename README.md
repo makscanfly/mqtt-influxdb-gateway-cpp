@@ -30,4 +30,3 @@ g++ gateway_C4.cpp -o gateway_C4 -lmosquittopp -lcurl -lpthread
     │   └── gateway_C4.cpp
     ├── .gitignore
     └── README.md
-    ```
