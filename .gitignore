@@ -1,0 +1,9 @@
+# binary files
+gateway_C4
+*.o
+*.out
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
